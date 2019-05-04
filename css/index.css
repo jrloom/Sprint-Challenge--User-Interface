@@ -165,8 +165,41 @@ footer nav a {
     text-decoration: none;
 }
 
-.full-width-img {
-    margin: 30px 0;
+.spacer {
+    margin-top: 30px;
+}
+
+.divider {
+    border-bottom: 1px dashed black;
+}
+
+.full-width {
+    padding: 30px;
+}
+
+/* .full-width__title {
+
+} */
+
+.full-width__text {
+    line-height: 1.2;
+}
+
+
+or {
+    background: orangered;
+}
+
+yg {
+    background: yellowgreen;
+}
+
+sb {
+    background: slateblue;
+}
+
+lsg {
+    background: lightslategray;
 }
 
 .teal {
