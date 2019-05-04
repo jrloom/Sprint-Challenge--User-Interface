@@ -177,33 +177,42 @@ footer nav a {
     padding: 30px;
 }
 
-/* .full-width__title {
-
-} */
-
 .full-width__text {
     line-height: 1.2;
 }
 
-
-or {
-    background: orangered;
+.row-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
 }
 
-yg {
-    background: yellowgreen;
+.card {
+    padding: 30px 0;
+    border-bottom: 1px dashed black;
 }
 
-sb {
-    background: slateblue;
+.card:not(:last-child) {
+    margin-right: 30px;
 }
 
-lsg {
-    background: lightslategray;
+.card__title {
+    margin-top: 10px;
+    margin-bottom: 16px;
 }
 
-.teal {
-    background: teal;
+.card__text {
+    line-height: 1.2;
+}
+
+.btn {
+    width: 30%;
+    padding: 10px;
+    margin-top: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .gold {
@@ -240,4 +249,24 @@ lsg {
 
 .dodgerblue {
     background: dodgerblue;
+}
+
+.or {
+    background: orangered;
+}
+
+.yg {
+    background: yellowgreen;
+}
+
+.sb {
+    background: slateblue;
+}
+
+.lsg {
+    background: lightslategray;
+}
+
+.teal {
+    background: teal;
 }
