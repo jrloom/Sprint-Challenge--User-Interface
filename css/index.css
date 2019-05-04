@@ -165,6 +165,10 @@ footer nav a {
     text-decoration: none;
 }
 
+.navbar__link:hover {
+    animation: link-color 5s infinite;
+}
+
 .spacer {
     margin-top: 30px;
 }
@@ -183,9 +187,8 @@ footer nav a {
 
 .row-cards {
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -251,22 +254,17 @@ footer nav a {
     background: dodgerblue;
 }
 
-.or {
-    background: orangered;
-}
-
-.yg {
-    background: yellowgreen;
-}
-
-.sb {
-    background: slateblue;
-}
-
-.lsg {
-    background: lightslategray;
-}
-
-.teal {
-    background: teal;
+@keyframes link-color {
+    0% {
+        color: black;
+    }
+    33% {
+        color: crimson;
+    }
+    66% {
+        color: crimson;
+    }
+    100% {
+        color: black;
+    }
 }
