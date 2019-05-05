@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,146 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navbar {
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.navbar__link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar__link:hover {
+    animation: link-color 5s infinite;
+}
+
+.spacer {
+    margin-top: 30px;
+}
+
+.divider {
+    border-bottom: 1px dashed black;
+}
+
+.full-width {
+    padding: 30px;
+}
+
+.full-width__text {
+    line-height: 1.2;
+}
+
+.row-cards {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card {
+    padding: 30px 0;
+    border-bottom: 1px dashed black;
+}
+
+.card:not(:last-child) {
+    margin-right: 30px;
+}
+
+.card__title {
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.card__text {
+    line-height: 1.2;
+}
+
+.btn {
+    width: 30%;
+    padding: 10px;
+    margin-top: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.gold {
+    background: gold;
+}
+
+.cadetblue {
+    background: cadetblue;
+}
+
+.coral {
+    background: coral;
+}
+
+.crimson {
+    background: crimson;
+}
+
+.forestgreen {
+    background: forestgreen;
+}
+
+.darkorchid {
+    background: darkorchid;
+}
+
+.hotpink {
+    background: hotpink;
+}
+
+.indigo {
+    background: indigo;
+}
+
+.dodgerblue {
+    background: dodgerblue;
+}
+
+@keyframes link-color {
+    0% {
+        color: black;
+    }
+    33% {
+        color: crimson;
+    }
+    66% {
+        color: crimson;
+    }
+    100% {
+        color: black;
+    }
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding: 30px;
+    margin: 50px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
